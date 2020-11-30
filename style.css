@@ -1,23 +1,86 @@
+#nav
+{
+	display: flex;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.nav1, .nav3, .nav2
+{
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+}
 #conteneur_1
 {
 	display: flex;
 	justify-content: space-between;
+	height: 700px;
 }
 
 .cadre_1
 {
-	border: 1px solid black;
 	width: 60%;
-	margin-top: 25px;
+	margin: 25px;
+	border-radius: 10px;
+	padding: 20px;
+	background: #f2f2f2;
 }
 .cadre_2
 {
-	border: 1px solid black;
 	width: 38%;
-	margin-top: 25px;
+	margin: 25px;
+	border-radius: 10px;
+	padding: 20px;
+	background: #f2f2f2;
+}
+#activites
+{
+	margin-bottom: 50px;
+}
+.activites
+{
+	display: flex;
+	justify-content: space-between;
+}
+.acti_1, .acti_2, .acti_3, .acti_4, .acti_5, .acti_6
+{
+	border-left: 1px solid #f2f2f2;
+	width: 282px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 5px 5px 5px #f2f2f2;
+}
+.acti_1, .acti_4
+{
+	height: 400px;
+}
+.acti_2, .acti_3, .acti_5, .acti_6
+{
+	height: 150px;
+}
+.img_acti_1
+{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.texte_acti_1
+{
+	text-align: justify;
+	padding-left: 15px;
 }
 #footer
 {
 	display: flex;
 	justify-content: space-between;
+	margin-left: 8px;
+}
+footer
+{
+	background: #f2f2f2;
+	margin: -8px;
+}
+header, #recherche, #infos, #activites, .a_propos
+{
+	margin-left: 30px;
 }
