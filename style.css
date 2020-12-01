@@ -15,7 +15,7 @@
 {
 	display: flex;
 	justify-content: space-between;
-	height: 700px;
+	height: 900px;
 }
 
 .cadre_1
@@ -37,34 +37,47 @@
 #activites
 {
 	margin-bottom: 50px;
+	margin-right: 25px;
 }
 .activites
 {
 	display: flex;
 	justify-content: space-between;
 }
+.acti_3
+{
+	align-self: flex-end;
+	position: absolute;
+	left: 26.7%;
+}
+.acti_6
+{
+	align-self: flex-end;
+	position: absolute;
+	right: 1.7%;
+}
 .acti_1, .acti_2, .acti_3, .acti_4, .acti_5, .acti_6
 {
 	border-left: 1px solid #f2f2f2;
-	width: 282px;
+	width: 420px;
 	border-radius: 10px;
 	overflow: hidden;
 	box-shadow: 5px 5px 5px #f2f2f2;
 }
 .acti_1, .acti_4
 {
-	height: 400px;
+	height: 680px;
 }
 .acti_2, .acti_3, .acti_5, .acti_6
 {
-	height: 150px;
+	height: 320px;
 }
 .img_acti_1
 {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
-.texte_acti_1
+.texte_acti_1, .texte_acti_2, .texte_acti_3, .texte_acti_4, .texte_acti_5, .texte_acti_6
 {
 	text-align: justify;
 	padding-left: 15px;
