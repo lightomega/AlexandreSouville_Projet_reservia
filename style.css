@@ -15,13 +15,31 @@ html
 	padding: 10px;
 	text-align: center;
 }
-#champ_recherche
+#barre_recherche
 {
-	width: 180px;
+	display: flex;
+	margin-bottom: 25px;
+	justify-content: flex-start;
+	margin-left: -70px;
+}
+.icone_recherche
+{
+	width: 28px;
+	height: 28px;
+	border: 1px solid #f2f2f2;
+	padding-top: 5px;
+	padding-left: 12px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius:10px;
+	background: #f2f2f2;
+}
+.champ_recherche
+{
+	width: 200px;
 	height: 35px;
 	border: 1px solid #f2f2f2;
 }
-#bouton_recherche
+.bouton_recherche
 {
 	background: #0065FC;
 	border-top-right-radius: 10px;
@@ -36,6 +54,7 @@ html
 	display: flex;
 	font-weight: bold;
 	justify-content: flex-start;
+	margin-left: -70px;
 }
 .filtre_txt
 {
@@ -262,7 +281,11 @@ footer
 	background: #f2f2f2;
 	margin: -8px;
 }
-header, #recherche, #infos, #activites, .a_propos
+header, #infos, #activites, .a_propos
 {
 	margin-left: 30px;
+}
+#recherche
+{
+	margin-left: 100px;
 }
