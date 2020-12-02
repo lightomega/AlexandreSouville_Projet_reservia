@@ -15,9 +15,96 @@ html
 	padding: 10px;
 	text-align: center;
 }
-.filtres
+#champ_recherche
 {
+	width: 180px;
+	height: 35px;
+	border: 1px solid #f2f2f2;
+}
+#bouton_recherche
+{
+	background: #0065FC;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border: none;
+	width: 110px;
+	height: 35px;
+	color: white;
+}
+#filtres
+{
+	display: flex;
 	font-weight: bold;
+	justify-content: flex-start;
+}
+.filtre_txt
+{
+	width: 20px;
+	height: 30px;
+	margin-left: 5px;
+	margin-right: 15px;
+	padding-top: 13px;
+	padding-right: 15px;
+}
+.eco
+{
+	width: 150px;
+	height: 30px;
+	border: 3px solid #f2f2f2;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-top: 10px;
+	padding-right: 15px;
+	text-align: right;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+.fami
+{
+	width: 120px;
+	height: 30px;
+	border: 3px solid #f2f2f2;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-top: 10px;
+	padding-right: 15px;
+	text-align: right;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;	
+}
+.rom
+{
+	width: 150px;
+	height: 30px;
+	border: 3px solid #f2f2f2;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-top: 10px;
+	padding-right: 15px;
+	text-align: right;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+.ani
+{
+	width: 200px;
+	height: 30px;
+	border: 3px solid #f2f2f2;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-top: 10px;
+	padding-right: 15px;
+	text-align: right;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
 }
 #conteneur_1
 {
