@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 	<head>
 		<meta charset="utf-8">
+		<title>Page reservia</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
+
 <body>
 	
 
@@ -17,17 +20,18 @@
 			<a href="#activites" class="nav2">Activités</a>
 			<a href="" class="nav3">S'inscrire</a>
 		</nav>
-		<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-		<p>En plein centre ville ou en pleine nature</p>
+		
 	</header>
 
 	<!-- section 1 (recherche, filtres) -->
 	<section id="recherche">
+		<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+		<p>En plein centre ville ou en pleine nature</p>	
 		<div id="barre-recherche">
 			<div class="icone-recherche">
-				<img src="images/icones/map-marker-alt.svg">
+				<img src="images/icones/map-marker-alt.svg" alt="icone-recherche">
 			</div>
-			<input class="champ-recherche" type="search" name="">
+			<input class="champ-recherche" type="search" name="c-recherche">
 			<input class="bouton-recherche" type="submit" value="Rechercher">
 		</div>
 		<div id="filtres">
@@ -42,43 +46,44 @@
 
 	<!-- section 2 (infos resultat recherche) -->
 	<section id="infos">
-		<p>(icone) Plus de 500 logements sont disponibles dans cette ville</p>
+		<h5>(icone) Plus de 500 logements sont disponibles dans cette ville</h5>
 	</section>
 
 
 	<!-- section 3 (resultat recherche, les plus populaires) -->
+	<div class="resp">
 	<section id="resultat">
 		<div id="conteneur-1">
 			<div class="cadre-1">
 				<h2 class="titre-heber">Hébergements à Marseille</h2>
 				<div id="conteneur-heber">
 					<div class="heber heber-1">
-						<img src="images/hebergements/5-redimensionnees/h-1.jpg">
+						<img src="images/hebergements/5-redimensionnees/h-1.jpg" alt="hebergement-1">
 						<p class="a-texte texte-heber-1">Auberge de la Cannebière</p>
 						<p class="prix">Nuit à partir de 25€</p>
 					</div>
 					<div class="heber heber-2">
-						<img src="images/hebergements/5-redimensionnees/h-2.jpg">
+						<img src="images/hebergements/5-redimensionnees/h-2.jpg" alt="hebergement-2">
 						<p class="a-texte texte-heber-2">Hôtel du port</p>
 						<p class="prix">Nuit à partir de 52€</p>
 					</div>
 					<div class="heber heber-3">
-						<img src="images/hebergements/5-redimensionnees/h-3.jpg">
+						<img src="images/hebergements/5-redimensionnees/h-3.jpg" alt="hebergement-3">
 						<p class="a-texte texte-heber-3">Hôtel Les mouettes</p>
 						<p class="prix">Nuit à partir de 76€</p>
 					</div>
 					<div class="heber heber-4">
-						<img src="images/hebergements/5-redimensionnees/h-4.jpg">
+						<img src="images/hebergements/5-redimensionnees/h-4.jpg" alt="hebergement-4">
 						<p class="a-texte texte-heber-4">Hôtel de la mer</p>
 						<p class="prix">Nuit à partir de 46€</p>
 					</div>
 					<div class="heber heber-5">
-						<img src="images/hebergements/5-redimensionnees/h-5.jpg">
+						<img src="images/hebergements/5-redimensionnees/h-5.jpg" alt="hebergement-5">
 						<p class="a-texte texte-heber-5">Auberge le panier</p>
 						<p class="prix">Nuit à partir de 23€</p>
 					</div>
 					<div class="heber heber-6">
-						<img src="images/hebergements/5-redimensionnees/h-6.jpg">
+						<img src="images/hebergements/5-redimensionnees/h-6.jpg" alt="hebergement-6">
 						<p class="a-texte texte-heber-6">Hôtel chez Amina</p>
 						<p class="prix">Nuit à partir de 96€</p>
 					</div>
@@ -89,21 +94,21 @@
 				<h2 class="titre-pop">Les plus populaires</h2>
 				<div id="conteneur-pop">
 					<div class="pop pop-1">
-						<img class="pop-img1" src="images/hebergements/5-redimensionnees/p-1.jpg">
+						<img class="pop-img1" src="images/hebergements/5-redimensionnees/p-1.jpg" alt="populaire-1">
 						<div class="texte-prix">
 							<p class="a-texte texte-pop-1">Hôtel Le soleil du matin</p>
 							<p class="prix">Nuit à partir de 128€</p>
 						</div>
 					</div>
 					<div class="pop pop-2">
-						<img class="pop-img1" src="images/hebergements/5-redimensionnees/p-2.jpg">
+						<img class="pop-img1" src="images/hebergements/5-redimensionnees/p-2.jpg" alt="populaire-2">
 						<div class="texte-prix">
 							<p class="a-texte texte-pop-2">Au coeur de l'eau <br>Chambre d'hotes</p>
 							<p class="prix">Nuit à partir de 71€</p>
 						</div>
 					</div>
 					<div class="pop pop3">
-						<img class="pop-img1" src="images/hebergements/5-redimensionnees/p-3.jpg">
+						<img class="pop-img1" src="images/hebergements/5-redimensionnees/p-3.jpg" alt="populaire-3">
 						<div class="texte-prix"
 						><p class="a-texte texte-pop3">Hôtel Tout bleu et Blanc</p>
 						<p class="prix">Nuit à partir de 68€</p>
@@ -111,57 +116,59 @@
 				</div>
 			</div>
 		</div>
+	</div>
 	</section>
 
 
 	<!-- section 4 (activités) -->
 	<section id="activites">
-		<h2><p>Activités à Marseille</p></h2>
+		<h2>Activités à Marseille</h2>
 		<div class="activites">
 			<div class="acti acti-1">
-				<img src="images/activites/5-redimensionees/a-1.jpg">
+				<img src="images/activites/5-redimensionees/a-1.jpg" alt="activite-1">
 				<p class="a-texte texte-acti-1">Vieux port</p>
 			</div>
 			<div class="acti acti-2">
-				<img src="images/activites/5-redimensionees/a-2.jpg">
+				<img src="images/activites/5-redimensionees/a-2.jpg" alt="activite-2">
 				<p class="a-texte texte-acti-2">Fort de Pomègues</p>
 			</div>
 			<div class="acti acti-3">
-				<img src="images/activites/5-redimensionees/a-3.jpg">
+				<img src="images/activites/5-redimensionees/a-3.jpg" alt="activite-3">
 				<p class="a-texte texte-acti-3">Iles du Frioul</p>
 			</div>
 			<div class="acti acti-4">
-				<img src="images/activites/5-redimensionees/a-4.jpg">
+				<img src="images/activites/5-redimensionees/a-4.jpg" alt="activite-4">
 				<p class="a-texte texte-acti-4">Parc National des Calanques</p>
 			</div>
 			<div class="acti acti-5">
-				<img src="images/activites/5-redimensionees/a-5.jpg">
+				<img src="images/activites/5-redimensionees/a-5.jpg" alt="activite-5">
 				<p class="a-texte texte-acti-5">Notre-Dame-de-la-Garde</p>
 			</div>
 			<div class="acti acti-6">
-				<img src="images/activites/5-redimensionees/a-6.jpg">
+				<img src="images/activites/5-redimensionees/a-6.jpg" alt="activite-6">
 				<p class="a-texte texte-acti-6">Parc Longchamp</p>
 			</div>
 		</div>
 	</section>
+</div>
 
 
 	<!-- Footer -->
 	<footer>
 		<div id="footer-menu">
 			<div class="a-propos">
-				<h3><p>À propos</p></h3>
+				<h3>À propos</h3>
 				<p>Fonctionnement du site</p>
 				<p>Conditions générales de vente</p>
 				<p>Données et confidentialité</p>
 			</div>
 			<div class="hebergements">
-				<h3><p>Nos hébergements</p></h3>
+				<h3>Nos hébergements</h3>
 				<p>Charte qualité</p>
 				<p>Soumettre votre hôtel</p>
 			</div>
 			<div class="assistance">
-				<h3><p>Assistance</p></h3>
+				<h3>Assistance</h3>
 				<p>Centre d'aide</p>
 				<p>Nous contacter</p>
 			</div>

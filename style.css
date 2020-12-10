@@ -7,7 +7,7 @@ nav
 	display: flex;
 	position: absolute;
 	top: 10px;
-	right: 10px;
+	right: 150px;
 
 	width: 100px;
 	padding: 10px;
@@ -243,4 +243,87 @@ header, #infos, #activites, .a-propos
 #recherche
 {
 	margin-left: 100px;
+}
+
+@media all and (max-device-width: 1325px)
+{
+
+	 #activites, .activites, #conteneur-1,  .resp 
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 99%;
+		height: auto;
+		align-items: center;
+	}
+	.cadre-1
+	{
+		background: none;
+	}
+	.cadre-1:nth-child(1)
+	{
+		order: 2;
+	}
+	.cadre-2:nth-child(2)
+	{
+		order: 1;
+	}
+	 .cadre-2, .cadre-1
+	{
+		margin: 0;
+		width: 100%;
+	}
+	
+	.cadre-1, .cadre-2, 
+	{
+		align-self: flex-start;
+		height: auto;
+
+	}
+	.acti-3, .acti-6
+	{
+		position: relative;
+		left: 0px;
+		align-self: flex-start;
+		width: 100%;
+	}
+	.acti-1, .acti-2, .acti-3, .acti-4, .acti-5, .acti-6
+	{
+		
+		width: 100%;
+		margin-bottom: 10px;	
+	}
+	
+	.heber, .pop
+	{
+		width: 99%;
+		height: auto;
+	}
+	
+	#filtres
+
+	{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		
+	}
+	#footer-menu
+	{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.a-propos, .hebergements, .assistance
+	{
+		width: auto;
+	}
+	footer
+	{
+		margin: 0px;
+	}
+	
+
 }
