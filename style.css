@@ -6,6 +6,10 @@ header
 {
 	height: 100px;
 }
+.logo
+{
+	margin-top: 25px;
+}
 nav
 {
 	display: flex;
@@ -26,7 +30,15 @@ nav
 }
 #recherche h2, #recherche p
 {
-	margin-left: -75px;
+	margin-left: -65px;
+}
+#recherche p
+{
+	margin-top: 0px;
+}
+#recherche h2
+{
+	margin-bottom: 10px;
 }
 #recherche
 {
@@ -43,11 +55,11 @@ nav
 }
 .icone-recherche
 {
-	width: 28px;
-	height: 25px;
+	width: 31px;
+	height: 31px;
 	border: 1px solid #f2f2f2;
-	padding-top: 8px;
-	padding-left: 12px;
+	padding-top: 12px;
+	padding-left: 18px;
 	border-top-left-radius: 15px;
 	border-bottom-left-radius:15px;
 	background: #f2f2f2;
@@ -55,17 +67,17 @@ nav
 .champ-recherche
 {
 	width: 200px;
-	height: 35px;
+	height: 45px;
 	border: 1px solid #f2f2f2;
 }
 .bouton-recherche
 {
 	background: #0065FC;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
 	border: none;
 	width: 110px;
-	height: 35px;
+	height: 45px;
 	color: white;
 }
 #filtres
@@ -151,6 +163,11 @@ nav
 	height: 20px;
 	text-align: center;
 	padding-top: 5px;
+	margin-right: 10px;
+}
+#infos h5
+{
+	font-weight: 400;
 }
 #resultat .fas
 {
@@ -175,7 +192,7 @@ nav
 }
 .titre-populaires
 {
-	padding-left: 20px;
+	padding-left: 15px;
 }
 #conteneur-hebergements
 {
@@ -238,11 +255,11 @@ nav
 {
 	display: flex;
 	width: 450px;
-	height: 200px;
+	height: 180px;
 	border: 5px solid white;
 	border-radius: 15px;
-	margin: auto;
-	margin-bottom: 30px;
+	margin-left: 15px;
+	margin-bottom: 50px;
 	box-shadow: 7px 7px 12px #d9d9d9;
 	background: white;
 	overflow: hidden;
@@ -250,7 +267,7 @@ nav
 .populaire .note-icones
 {
 	position: relative;
-	top: 15%;
+	top: 50px;
 }
 #activites
 {
@@ -280,7 +297,7 @@ nav
 	width: 420px;
 	border-radius: 15px;
 	overflow: hidden;
-	box-shadow: 7px 7px 7px #f2f2f2;vite
+	box-shadow: 7px 7px 7px #f2f2f2;
 }
 .activite-1, .activite-4
 {
@@ -335,7 +352,7 @@ header, #infos, #activites, .a-propos
 	{
 		margin-left: 0px;
 	}
-	header, #infos, .a-propos
+	header, .a-propos
 	{
 		margin-left: 0px;
 		
@@ -390,28 +407,32 @@ header, #infos, #activites, .a-propos
 	#barre-recherche
 	{
 		justify-content: center;
-		margin-left: 15px;
+		margin-left: 5px;
 	}	
 	.bouton-recherche
 	{
-		width: 50px;
+		width: 55px;
 		border-radius: 15px;
-		height: 50px;
+		height: 55px;
 		position: relative;
 		right: 9px;
 	}
 	.icone-recherche
 	{
-		height: 33px;
-		width: 30px;
-		padding-top: 15px;
-		padding-left: 18px;
+		height: 36px;
+		width: 33px;
+		padding-top: 17px;
+		padding-left: 20px;
 	}
 	.champ-recherche
 	{
 		width: 65%; 
 		border-right: none;
-		height: 50px;
+		height: 55px;
+	}
+	#info h5
+	{
+		margin-right: -25px;
 	}
 	.titre-activites
 	{
@@ -452,7 +473,7 @@ header, #infos, #activites, .a-propos
 	{
 		border-radius: 0px;
 	}
-	.cadre-1, .cadre-2, 
+	.cadre-1, .cadre-2 
 	{
 		align-self: flex-start;
 		height: auto;
@@ -474,8 +495,13 @@ header, #infos, #activites, .a-propos
 	}
 	.populaire
 	{
-		width: 90%;
-		height: 180px;
+		width: 94%;
+		height: 170px;
+		margin-left: 0px;
+	}
+	.populaire img
+	{
+		width: 45%
 	}
 	.populaire .note-icones
 	{
@@ -487,7 +513,7 @@ header, #infos, #activites, .a-propos
 		width: 90%;
 		height: 270px;
 	}
-	.hebergement, .populaire
+	.hebergement
 	{
 		width: 95%;
 		
@@ -551,18 +577,17 @@ header, #infos, #activites, .a-propos
 	}
 	#recherche h2
 	{
-		font-size: 30px;
+		font-size: 25px;
 	}
 	#recherche h2, #recherche p
 	{
-	margin-left: 2.5%;
+	margin-left: 25px;
 	text-align: left;
-	width: 400px;
+	width: 350px;
 	}
 	#recherche p
 	{
-		position: relative;
-		bottom: 20px;
+		margin-bottom: 40px;
 	}
 	footer
 	{
