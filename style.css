@@ -79,6 +79,8 @@ nav
 	width: 110px;
 	height: 45px;
 	color: white;
+	font-size: 15px;
+	font-weight: bold;
 }
 #filtres
 {
@@ -154,6 +156,10 @@ nav
 	top: 10px;
 	color: #0065FC;
 }
+#infos
+{
+	height: 30px;
+}
 #infos .fas
 {
 	border: 0.5px solid #d9d9d9;
@@ -176,13 +182,13 @@ nav
 #conteneur-1
 {
 	display: flex;
-	height: 880px;
+	height: 850px;
 }
 .cadre-1
 {
 	width: 65%;
 	margin: 25px;
-	border-radius: 10px;
+	border-radius: 20px;
 	padding: 20px;
 	background: #f2f2f2;
 }
@@ -203,36 +209,34 @@ nav
 .hebergement
 {
 	width: 350px;
-	height: 250px;
+	height: 260px;
 	border: 5px solid white;
-	border-radius: 15px;
+	border-radius: 20px;
 	margin: auto;
 	margin-bottom: 30px;
 	box-shadow: 7px 7px 12px #d9d9d9;
 	background: white;
 	overflow: hidden;
 }
-.a-texte 
+.a-texte, .prix, .note-icones
 {
 	text-align: justify;
 	padding-left: 15px;
-	font-weight: bold;	
+	margin-top: 0px;
+	margin-bottom: 10px;
 }
-.prix
+.a-texte
 {
-	text-align: justify;
-	padding-left: 15px;
+	font-weight: bold;
+	margin-top: 10px;
 }
-.note-icones
-{
-	padding-left: 15px;
-}
+
+
 .afficher-plus
 {
 	padding-left: 20px;
-	padding-bottom: 200px;
 	position: relative;
-	top: 50px;
+	top: 5px;
 	font-weight: bold;
 	font-size: 20px;
 }
@@ -240,7 +244,7 @@ nav
 {
 	width: 27%;
 	margin: 25px;
-	border-radius: 10px;
+	border-radius: 20px;
 	padding: 20px;
 	background: #f2f2f2;
 }
@@ -257,7 +261,7 @@ nav
 	width: 450px;
 	height: 180px;
 	border: 5px solid white;
-	border-radius: 15px;
+	border-radius: 20px;
 	margin-left: 15px;
 	margin-bottom: 50px;
 	box-shadow: 7px 7px 12px #d9d9d9;
@@ -295,7 +299,7 @@ nav
 {
 	border-left: 1px solid #f2f2f2;
 	width: 420px;
-	border-radius: 15px;
+	border-radius: 20px;
 	overflow: hidden;
 	box-shadow: 7px 7px 7px #f2f2f2;
 }
