@@ -442,12 +442,11 @@ header, #infos, #activites, .a-propos
 	}
 	.titre-activites
 	{
-		position: relative;
-		right: 15%;
+		margin-right: 140px;
 	}
 	#activites
 	{
-		margin-top: -40%;
+		margin-top: 5%;
 	}
 	#activites, .activites, #conteneur-1,  .resp
 	{
@@ -514,24 +513,25 @@ header, #infos, #activites, .a-propos
 		position: relative;
 		top: 40px;
 	}
-	.hebergement
+	.titre-hebergements
 	{
-		width: 90%;
-		height: 270px;
+		margin-left: -20px;
 	}
 	.hebergement
 	{
 		width: 95%;
-		
+		height: 250px;
+		margin-right: 20px;
 	}
 	.hebergement img
 	{
-		height: 55%;
+		height: 60%;
 		width: 100%;
 	}
 	.afficher-plus
 	{
 		top: 0;
+		margin-left: -15px;
 	}
 	.activite img 
 	{
@@ -574,7 +574,7 @@ header, #infos, #activites, .a-propos
 	{
 		width: 90%;
 		margin-left: 15px;
-		margin-bottom: 30px;
+		margin-bottom: 5px;
 		margin-top: 30px;
 	}
 	#recherche
