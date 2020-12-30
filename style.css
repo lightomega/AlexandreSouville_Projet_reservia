@@ -102,6 +102,10 @@ a:active
 	font-size: 15px;
 	font-weight: bold;
 }
+.fa-search
+{
+	display: none;
+}
 #filtres
 {
 	display: flex;
@@ -410,28 +414,29 @@ header, #infos, #activites, .a-propos
 	.logo
 	{
 		position: relative;
-		bottom: 27%;
-		left: 3%;
+		bottom: 60px;
+		margin-left: 25px;
 	}
 	nav
 	{
-		
+		margin-top: -30px;
 		height: 100%;
 		width: 100%
 	}
 	.nav3
 	{
 		position: relative;
-		left: 80%;
+		left: 75%;
 		border: none;
 		width: 60px;
 		height: 50%;
+		top: 20px;
 	}
 	.nav2
 	{
 		position: absolute;
 		top: 10%;
-		left: 0%;
+		right: 0;
 		border-top: none;
 		border-bottom: 2px solid #0065FC;
 		padding-bottom: 15px;
@@ -441,7 +446,7 @@ header, #infos, #activites, .a-propos
 	{
 		position: absolute;
 		top: 10%;
-		right: 0%;
+		left: 0;
 		border-top: none;
 		border-bottom: 2px solid #0065FC;
 		padding-bottom: 15px;
@@ -461,6 +466,14 @@ header, #infos, #activites, .a-propos
 		position: relative;
 		right: 9px;
 	}
+	.texte-bouton
+	{
+		display: none;
+	}
+	.fa-search
+	{
+		display: block;
+	}
 	.icone-recherche
 	{
 		height: 36px;
@@ -474,6 +487,10 @@ header, #infos, #activites, .a-propos
 		border-right: none;
 		height: 55px;
 	}
+	#info
+	{
+		height: 150px;
+	}
 	#info h5
 	{
 		margin-right: -25px;
@@ -486,7 +503,7 @@ header, #infos, #activites, .a-propos
 	{
 		margin-top: 5%;
 	}
-	#activites, .activites, #conteneur-1,  .resp
+	#activites, .activites, #conteneur-1, .resp
 	{
 		display: flex;
 		flex-direction: column;
@@ -511,27 +528,22 @@ header, #infos, #activites, .a-propos
 	{
 		margin: 0;
 		width: 95%;
+		align-self: flex-start;
+		height: auto;
 	}
 	.cadre-2
 	{
 		border-radius: 0px;
-	}
-	.cadre-1, .cadre-2 
-	{
-		align-self: flex-start;
-		height: auto;
-
+		margin-top: 30px;
 	}
 	.activite-3, .activite-6
 	{
 		position: relative;
 		left: 5%;
-		align-self: flex-start;
-		
+		align-self: flex-start;		
 	}
 	.activite
-	{
-		
+	{		
 		width: 90%;
 		height: 200px;
 		margin-bottom: 30px;	
@@ -589,6 +601,10 @@ header, #infos, #activites, .a-propos
 	.filtre
 	{
 		margin-bottom: 10px;
+	}
+	.filtre-txt
+	{
+		margin-left: 18px;
 	}
 	.animaux
 	{
