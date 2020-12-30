@@ -29,7 +29,7 @@
 			<div class="icone-recherche">
 				<img src="images/icones/map-marker-alt.svg" alt="icone-recherche">
 			</div>
-			<input class="champ-recherche" type="search" name="c-recherche">
+			<input class="champ-recherche" type="search" name="c-recherche" value="Marseille, France">
 			<input class="bouton-recherche" type="submit" value="Rechercher">
 		</div>
 		
@@ -83,7 +83,7 @@
 							<img src="images/hebergements/5-redimensionnees/h-1.jpg" alt="hebergement-1">
 						</picture>						
 						<p class="a-texte texte-hebergement-1">Auberge de la Cannebière</p>
-						<p class="prix">Nuit à partir de 25€</p>
+						<p class="prix">Nuit à partir de <span class="prix-chiffre">25€</span></p>
 						<div class="note-icones">
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star"></i>
@@ -99,7 +99,7 @@
 							<img src="images/hebergements/5-redimensionnees/h-2.jpg" alt="hebergement-2">
 						</picture>
 						<p class="a-texte texte-hebergement-2">Hôtel du port</p>
-						<p class="prix">Nuit à partir de 52€</p>
+						<p class="prix">Nuit à partir de <span class="prix-chiffre">52€</span></p>
 						<div class="note-icones">
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star"></i>
@@ -115,7 +115,7 @@
 							<img src="images/hebergements/5-redimensionnees/h-3.jpg" alt="hebergement-3">
 						</picture>
 						<p class="a-texte texte-hebergement-3">Hôtel Les mouettes</p>
-						<p class="prix">Nuit à partir de 76€</p>
+						<p class="prix">Nuit à partir de <span class="prix-chiffre">76€</span></p>
 						<div class="note-icones">
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star"></i>
@@ -131,7 +131,7 @@
 							<img src="images/hebergements/5-redimensionnees/h-4.jpg" alt="hebergement-4">
 						</picture>
 						<p class="a-texte texte-hebergement-4">Hôtel de la mer</p>
-						<p class="prix">Nuit à partir de 46€</p>
+						<p class="prix">Nuit à partir de <span class="prix-chiffre">46€</span></p>
 						<div class="note-icones">
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star"></i>
@@ -147,7 +147,7 @@
 							<img src="images/hebergements/5-redimensionnees/h-5.jpg" alt="hebergement-5">
 						</picture>
 						<p class="a-texte texte-hebergement-5">Auberge le panier</p>
-						<p class="prix">Nuit à partir de 23€</p>
+						<p class="prix">Nuit à partir de <span class="prix-chiffre">23€</span></p>
 						<div class="note-icones">
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star"></i>
@@ -163,7 +163,7 @@
 							<img src="images/hebergements/5-redimensionnees/h-6.jpg" alt="hebergement-6">
 						</picture>
 						<p class="a-texte texte-hebergement-6">Hôtel chez Amina</p>
-						<p class="prix">Nuit à partir de 96€</p>
+						<p class="prix">Nuit à partir de <span class="prix-chiffre">96€</span></p>
 						<div class="note-icones">
 							<i class="fas fa-star"></i>
 							<i class="fas fa-star"></i>
@@ -182,7 +182,7 @@
 						<img class="populaire-img1" src="images/hebergements/5-redimensionnees/p-1.jpg" alt="populaire-1">
 						<div class="texte-prix">
 							<p class="a-texte texte-populaire-1">Hôtel Le soleil du matin</p>
-							<p class="prix">Nuit à partir de 128€</p>
+							<p class="prix">Nuit à partir de <span class="prix-chiffre">128€</span></p>
 							<div class="note-icones">
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
@@ -196,7 +196,7 @@
 						<img class="populaire-img1" src="images/hebergements/5-redimensionnees/p-2.jpg" alt="populaire-2">
 						<div class="texte-prix">
 							<p class="a-texte texte-populaire-2">Au coeur de l'eau <br>Chambre d'hotes</p>
-							<p class="prix">Nuit à partir de 71€</p>
+							<p class="prix">Nuit à partir de <span class="prix-chiffre">71€</span></p>
 							<div class="note-icones">
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
@@ -210,7 +210,7 @@
 						<img class="populaire-img1" src="images/hebergements/5-redimensionnees/p-3.jpg" alt="populaire-3">
 						<div class="texte-prix">
 							<p class="a-texte texte-populaire-3">Hôtel Tout bleu et Blanc</p>
-							<p class="prix">Nuit à partir de 68€</p>
+							<p class="prix">Nuit à partir de <span class="prix-chiffre">68€</span></p>
 							<div class="note-icones">
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i>
@@ -231,52 +231,52 @@
 		<h2 class="titre-activites">Activités à Marseille</h2>
 		<div class="activites">
 			<div class="activite activite-1">
-				<img srcset="images/activites/5-redimensionees/a-1-responsive.jpg 440w,
-						images/activites/5-redimensionees/a-1.jpg 420w"
-					sizes="(max-width: 480px) 440px,
-						(max-width: 1920px) 420px"
-					src="images/activites/5-redimensionees/a-1.jpg" alt="activite-1">
-				<p class="a-texte texte-activite-1">Vieux port</p>
+				<picture>
+					<source media="(max-width: 425px)" alt="img_1" srcset="images/activites/5-redimensionees/a-1-responsive.jpg">
+					<source media="(min-width: 1920px)" alt="img_2" srcset="images/activites/5-redimensionees/a-1.jpg">
+					<img src="images/activites/5-redimensionees/a-1.jpg" alt="activite-1">
+				</picture>
+				<p class="a-texte texte-activite texte-activite-1">Vieux port</p>
 			</div>
 			<div class="activite activite-2">
-				<img srcset="images/activites/5-redimensionees/a-2-responsive.jpg 450w,
-						images/activites/5-redimensionees/a-2.jpg 420w"
-					sizes="(max-width: 480px) 440px,
-						(max-width: 1920px) 420px"
-					src="images/activites/5-redimensionees/a-2.jpg" alt="activite-2">
-				<p class="a-texte texte-activite-2">Fort de Pomègues</p>
+				<picture>
+					<source media="(max-width: 425px)" alt="img_1" srcset="images/activites/5-redimensionees/a-2-responsive.jpg">
+					<source media="(min-width: 1920px)" alt="img_2" srcset="images/activites/5-redimensionees/a-2.jpg">
+					<img src="images/activites/5-redimensionees/a-2.jpg" alt="activite-2">
+				</picture>
+				<p class="a-texte texte-activite texte-activite-2">Fort de Pomègues</p>
 			</div>
 			<div class="activite activite-3">
-				<img srcset="images/activites/5-redimensionees/a-3-responsive.jpg 450w,
-						images/activites/5-redimensionees/a-3.jpg 420w"
-					sizes="(max-width: 480px) 440px,
-						(max-width: 1920px) 420px"
-					src="images/activites/5-redimensionees/a-3.jpg" alt="activite-3">
-				<p class="a-texte texte-activite-3">Iles du Frioul</p>
+				<picture>
+					<source media="(max-width: 425px)" alt="img_1" srcset="images/activites/5-redimensionees/a-3-responsive.jpg">
+					<source media="(min-width: 1920px)" alt="img_2" srcset="images/activites/5-redimensionees/a-3.jpg">
+					<img src="images/activites/5-redimensionees/a-3.jpg" alt="activite-3">
+				</picture>
+				<p class="a-texte texte-activite texte-activite-3">Iles du Frioul</p>
 			</div>
 			<div class="activite activite-4">
-				<img srcset="images/activites/5-redimensionees/a-4-responsive.jpg 450w,
-						images/activites/5-redimensionees/a-4.jpg 420w"
-					sizes="(max-width: 480px) 440px,
-						(max-width: 1920px) 420px"
-					src="images/activites/5-redimensionees/a-4.jpg" alt="activite-4">
-				<p class="a-texte texte-activite-4">Parc National des Calanques</p>
+				<picture>
+					<source media="(max-width: 425px)" alt="img_1" srcset="images/activites/5-redimensionees/a-4-responsive.jpg">
+					<source media="(min-width: 1920px)" alt="img_2" srcset="images/activites/5-redimensionees/a-4.jpg">
+					<img src="images/activites/5-redimensionees/a-4.jpg" alt="activite-4">
+				</picture>
+				<p class="a-texte texte-activite texte-activite-4">Parc National des Calanques</p>
 			</div>
 			<div class="activite activite-5">
-				<img srcset="images/activites/5-redimensionees/a-5-responsive.jpg 450w,
-						images/activites/5-redimensionees/a-5.jpg 420w"
-					sizes="(max-width: 480px) 440px,
-						(max-width: 1920px) 420px"
-					src="images/activites/5-redimensionees/a-5.jpg" alt="activite-5">
-				<p class="a-texte texte-activite-5">Notre-Dame-de-la-Garde</p>
+				<picture>
+					<source media="(max-width: 425px)" alt="img_1" srcset="images/activites/5-redimensionees/a-5-responsive.jpg">
+					<source media="(min-width: 1920px)" alt="img_2" srcset="images/activites/5-redimensionees/a-5.jpg">
+					<img src="images/activites/5-redimensionees/a-5.jpg" alt="activite-5">
+				</picture>
+				<p class="a-texte texte-activite texte-activite-5">Notre-Dame-de-la-Garde</p>
 			</div>
 			<div class="activite activite-6">
-				<img srcset="images/activites/5-redimensionees/a-6-responsive.jpg 450w,
-						images/activites/5-redimensionees/a-6.jpg 420w"
-					sizes="(max-width: 480px) 440px,
-						(max-width: 1920px) 420px"
-					src="images/activites/5-redimensionees/a-6.jpg" alt="activite-6">
-				<p class="a-texte texte-activite-6">Parc Longchamp</p>
+				<picture>
+					<source media="(max-width: 425px)" alt="img_1" srcset="images/activites/5-redimensionees/a-6-responsive.jpg">
+					<source media="(min-width: 1920px)" alt="img_2" srcset="images/activites/5-redimensionees/a-6.jpg">
+					<img src="images/activites/5-redimensionees/a-6.jpg" alt="activite-6">
+				</picture>
+				<p class="a-texte texte-activite texte-activite-6">Parc Longchamp</p>
 			</div>
 		</div>
 	</section>
