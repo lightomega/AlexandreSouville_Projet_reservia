@@ -2,6 +2,15 @@ html
 {
 	font-family: 'Raleway', sans-serif;
 }
+
+/*
+=========================================================
+=========================================================
+ SECTION HEADER/RECHERCHE
+=========================================================
+=========================================================
+*/
+
 header
 {
 	height: 100px;
@@ -106,6 +115,15 @@ a:active
 {
 	display: none;
 }
+
+/*
+=========================================================
+=========================================================
+ SECTION FILTRES/INFO
+=========================================================
+=========================================================
+*/
+
 #filtres
 {
 	display: flex;
@@ -198,6 +216,15 @@ a:active
 {
 	font-weight: 400;
 }
+
+/*
+=========================================================
+=========================================================
+ SECTION RESULTATS 
+=========================================================
+=========================================================
+*/
+
 #resultat .fas
 {
 	color: #0065FC;
@@ -308,6 +335,13 @@ a:active
 	position: relative;
 	top: 50px;
 }
+/*
+=========================================================
+=========================================================
+ SECTION ACTIVITES
+=========================================================
+=========================================================
+*/
 #activites
 {
 	margin-bottom: 50px;
@@ -372,6 +406,14 @@ a:active
 {
 	width: 650px;
 }
+/*
+=========================================================
+=========================================================
+ FOOTER
+=========================================================
+=========================================================
+*/
+
 #footer-menu
 {
 	display: flex;
@@ -654,3 +696,275 @@ header, #infos, #activites, .a-propos
 		margin: 0px;
 	}
 }
+@media all and (min-device-width: 700px) and (max-device-width: 768px)
+{
+	html, body, footer
+	{
+		width: 100%;
+		overflow-x: hidden;
+	}
+	body
+	{
+		margin-left: 0px;
+	}
+	header, .a-propos
+	{
+		margin-left: 0px;
+		
+	}
+	header
+	{
+		display: flex;
+		flex-wrap: wrap;
+		height: 170px;		
+	}
+	.logo
+	{
+		position: relative;
+		bottom: 60px;
+		margin-left: 25px;
+	}
+	nav
+	{
+		margin-top: -30px;
+		height: 100%;
+		width: 100%
+	}
+	.nav3
+	{
+		position: relative;
+		left: 75%;
+		border: none;
+		width: 60px;
+		height: 50%;
+		top: 20px;
+	}
+	.nav2
+	{
+		position: absolute;
+		top: 10%;
+		right: 0;
+		border-top: none;
+		border-bottom: 2px solid #0065FC;
+		padding-bottom: 15px;
+		width: 50%
+	}
+	.nav1
+	{
+		position: absolute;
+		top: 10%;
+		left: 0;
+		border-top: none;
+		border-bottom: 2px solid #0065FC;
+		padding-bottom: 15px;
+		width: 50%;
+		
+	}
+	#barre-recherche
+	{
+		justify-content: center;
+		margin-left: 5px;
+	}	
+	.bouton-recherche
+	{
+		width: 55px;
+		border-radius: 15px;
+		height: 55px;
+		position: relative;
+		right: 9px;
+	}
+	.texte-bouton
+	{
+		display: none;
+	}
+	.fa-search
+	{
+		display: block;
+	}
+	.icone-recherche
+	{
+		height: 36px;
+		width: 33px;
+		padding-top: 17px;
+		padding-left: 20px;
+	}
+	.champ-recherche
+	{
+		width: 65%; 
+		border-right: none;
+		height: 55px;
+	}
+	#info
+	{
+		height: 150px;
+	}
+	#info h5
+	{
+		margin-right: -25px;
+	}
+	.titre-activites
+	{
+		margin-right: 140px;
+	}
+	#activites
+	{
+		margin-top: 5%;
+	}
+	#activites, .activites, #conteneur-1, .resp
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100%;
+		height: 99%;
+		align-items: center;
+	}
+	.cadre-1
+	{
+		background: none;
+	}
+	.cadre-1:nth-child(1)
+	{
+		order: 2;
+	}
+	.cadre-2:nth-child(2)
+	{
+		order: 1;
+	}
+	.cadre-1,.cadre-2 
+	{
+		margin: 0;
+		width: 95%;
+		align-self: flex-start;
+		height: auto;
+	}
+	.cadre-2
+	{
+		border-radius: 0px;
+		margin-top: 30px;
+	}
+	.activite-3, .activite-6
+	{
+		position: relative;
+		left: 5%;
+		align-self: flex-start;		
+	}
+	.activite
+	{		
+		width: 90%;
+		height: 350px;
+		margin-bottom: 30px;	
+	}
+	.populaire
+	{
+		width: 94%;
+		height: 250px;
+		margin-left: 0px;
+	}
+	.populaire img
+	{
+		width: 45%
+	}
+	.populaire .note-icones
+	{
+		position: relative;
+		top: 40px;
+	}
+	.titre-hebergements
+	{
+		margin-left: -20px;
+	}
+	.hebergement
+	{
+		width: 95%;
+		height: 400px;
+		margin-right: 20px;
+	}
+	.hebergement img
+	{
+		height: 60%;
+		width: 100%;
+	}
+	.afficher-plus
+	{
+		top: 0;
+		margin-left: -15px;
+	}
+	.activite img 
+	{
+		width: 100%;
+		height: auto;
+	}
+	
+	#filtres
+	{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		margin-left: 2%;
+		height: auto;
+	}
+	.filtre
+	{
+		margin-bottom: 10px;
+	}
+	.filtre-txt
+	{
+		margin-left: 18px;
+	}
+	.animaux
+	{
+		position: relative;
+		top: 0px;
+		right: 0px;
+	}
+	.conteneur-filtres
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#footer-menu
+	{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin: 0px;
+	}
+	.a-propos, .hebergements, .assistance
+	{
+		width: 90%;
+		margin-left: 15px;
+		margin-bottom: 5px;
+		margin-top: 30px;
+	}
+	#recherche
+	{
+		margin: 0px;
+	}
+	#recherche h2
+	{
+		font-size: 25px;
+	}
+	#recherche h2, #recherche p
+	{
+	margin-left: 25px;
+	text-align: left;
+	width: 350px;
+	}
+	#recherche p
+	{
+		margin-bottom: 40px;
+	}
+	footer
+	{
+		margin: 0px;
+	}
+}
+	
+
+
+
+
+
+
