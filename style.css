@@ -714,7 +714,7 @@ header, #infos, #activites, .a-propos
 		margin: 0px;
 	}
 }
-@media all and (min-device-width: 700px) and (max-device-width: 768px)
+@media all and (min-device-width: 550px) and (max-device-width: 768px)
 {
 	html, body, footer
 	{
@@ -728,19 +728,20 @@ header, #infos, #activites, .a-propos
 	header, .a-propos
 	{
 		margin-left: 0px;
+		
 	}
 	header
 	{
 		display: flex;
 		flex-wrap: wrap;
-		height: 170px;		
+		height: 150px;		
 	}
 	.logo
 	{
 		position: relative;
 		bottom: 60px;
-		margin-left: 25px;
-		margin-top: 50px;
+		margin-left: 20px;
+		margin-top: 45px;
 	}
 	nav
 	{
@@ -754,13 +755,12 @@ header, #infos, #activites, .a-propos
 		left: 75%;
 		border: none;
 		width: 60px;
-		height: 50%;
 		top: 20px;
 	}
 	.nav2
 	{
 		position: absolute;
-		top: 10%;
+		top: 11%;
 		right: 0;
 		border-top: none;
 		border-bottom: 2px solid #0065FC;
@@ -770,7 +770,7 @@ header, #infos, #activites, .a-propos
 	.nav1
 	{
 		position: absolute;
-		top: 10%;
+		top: 11%;
 		left: 0;
 		border-top: none;
 		border-bottom: 2px solid #0065FC;
@@ -781,13 +781,13 @@ header, #infos, #activites, .a-propos
 	#barre-recherche
 	{
 		justify-content: center;
-		margin-left: 5px;
+		margin-left: 0px;
 	}	
 	.bouton-recherche
 	{
-		width: 55px;
+		width: 50px;
 		border-radius: 15px;
-		height: 55px;
+		height: 50px;
 		position: relative;
 		right: 9px;
 	}
@@ -801,24 +801,21 @@ header, #infos, #activites, .a-propos
 	}
 	.icone-recherche
 	{
-		height: 36px;
-		width: 33px;
-		padding-top: 17px;
-		padding-left: 20px;
+		height: 34px;
+		width: 28px;
+		padding-top: 14px;
+		padding-left: 17px;
 	}
 	.champ-recherche
 	{
-		width: 65%; 
+		width: 60%; 
 		border-right: none;
-		height: 55px;
+		height: 50px;
 	}
-	#info
+	#infos
 	{
-		height: 150px;
-	}
-	#info h5
-	{
-		margin-right: -25px;
+		margin-left: 18px;
+		margin-bottom: 25px;
 	}
 	.titre-activites
 	{
@@ -870,38 +867,63 @@ header, #infos, #activites, .a-propos
 	.activite
 	{		
 		width: 90%;
-		height: 350px;
-		margin-bottom: 30px;	
+		height: 220px;
+		margin-bottom: 30px;
+		margin-left: -5px;	
+	}
+	.texte-activite
+	{
+		margin-top: 14px;
+	}
+	#conteneur-populaires
+	{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
 	}
 	.populaire
 	{
-		width: 94%;
-		height: 250px;
-		margin-left: 0px;
+		width: 45%;
+		height: 170px;
+		margin-left: -5px;
+		margin-bottom: 15px;
+	}
+	.populaire-3
+	{
+		display: none;
 	}
 	.populaire img
 	{
 		width: 45%
 	}
-	.populaire .note-icones
-	{
-		position: relative;
-		top: 40px;
-	}
 	.titre-hebergements
 	{
 		margin-left: -20px;
 	}
+	#conteneur-hebergements
+	{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
 	.hebergement
 	{
-		width: 95%;
-		height: 400px;
+		width: 45%;
+		height: 220px;
 		margin-right: 20px;
+		margin-bottom: 15px;
+		margin-left: -5px;
 	}
 	.hebergement img
 	{
 		height: 60%;
 		width: 100%;
+	}
+	.hebergement .texte-prix
+	{
+		margin-top: -5px;
 	}
 	.afficher-plus
 	{
@@ -911,8 +933,9 @@ header, #infos, #activites, .a-propos
 	.activite img 
 	{
 		width: 100%;
-		height: auto;
+		height: 75%;
 	}
+	
 	#filtres
 	{
 		display: flex;
@@ -936,10 +959,15 @@ header, #infos, #activites, .a-propos
 		top: 0px;
 		right: 0px;
 	}
+	.familial
+	{
+		width: 110px;
+	}
 	.conteneur-filtres
 	{
 		display: flex;
 		flex-wrap: wrap;
+		margin-left: 6px;
 	}
 	#footer-menu
 	{
@@ -952,12 +980,11 @@ header, #infos, #activites, .a-propos
 	{
 		width: 90%;
 		margin-left: 15px;
-		margin-bottom: 5px;
-		margin-top: 30px;
+		margin-bottom: 15px;
 	}
 	.a-propos
 	{
-		margin-top: 50px;
+		margin-top: 30px;
 	}
 	#recherche
 	{
@@ -965,13 +992,13 @@ header, #infos, #activites, .a-propos
 	}
 	#recherche h2
 	{
-		font-size: 25px;
+		font-size: 22px;
 	}
 	#recherche h2, #recherche p
 	{
 	margin-left: 25px;
 	text-align: left;
-	width: 350px;
+	width: 90%;
 	}
 	#recherche p
 	{
