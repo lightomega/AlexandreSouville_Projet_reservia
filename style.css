@@ -767,7 +767,7 @@ header, #infos, #activites, .a-propos
 	{
 		position: relative;
 		bottom: 60px;
-		margin-left: 20px;
+		margin-left: 40px;
 		margin-top: 45px;
 	}
 	nav
@@ -779,7 +779,7 @@ header, #infos, #activites, .a-propos
 	.nav3
 	{
 		position: relative;
-		left: 75%;
+		left: 85%;
 		border: none;
 		width: 60px;
 		top: 20px;
@@ -787,7 +787,7 @@ header, #infos, #activites, .a-propos
 	.nav2
 	{
 		position: absolute;
-		top: 11%;
+		top: 15%;
 		right: 0;
 		border-top: none;
 		border-bottom: 2px solid #0065FC;
@@ -797,7 +797,7 @@ header, #infos, #activites, .a-propos
 	.nav1
 	{
 		position: absolute;
-		top: 11%;
+		top: 15%;
 		left: 0;
 		border-top: none;
 		border-bottom: 2px solid #0065FC;
@@ -1041,6 +1041,7 @@ header, #infos, #activites, .a-propos
 	#recherche
 	{
 		margin: 0px;
+		margin-top: 30px;
 	}
 	#recherche h2
 	{
