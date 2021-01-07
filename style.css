@@ -714,7 +714,7 @@ header, #infos, #activites, .a-propos
 		margin: 0px;
 	}
 }
-@media all and (min-device-width: 550px) and (max-device-width: 768px)
+@media all and (min-device-width: 426px) and (max-device-width: 768px)
 {
 	html, body, footer
 	{
@@ -814,7 +814,7 @@ header, #infos, #activites, .a-propos
 	}
 	#infos
 	{
-		margin-left: 18px;
+		margin-left: 37px;
 		margin-bottom: 25px;
 	}
 	.titre-activites
@@ -867,21 +867,30 @@ header, #infos, #activites, .a-propos
 	.activite-3, .activite-6
 	{
 		position: relative;
-		align-self: flex-start;		
-	}
-	.activite-3
-	{
-		left: 0;
+		align-self: flex-start;	
+		left: 0;	
 	}
 	.activite
 	{		
-		width: 45%;
+		width: 43.5%;
 		height: 220px;
-		margin-bottom: 30px;	
+		margin-bottom: 30px;
+	}
+	.activite-1, .activite-3, .activite-5
+	{
+		margin-left: 35px;
+	}
+	.activite-2, .activite-4, .activite-6
+	{
+		margin-right: 35px;
 	}
 	.texte-activite
 	{
 		margin-top: 14px;
+	}
+	.titre-populaires
+	{
+		margin-left: 15px;
 	}
 	#conteneur-populaires
 	{
@@ -894,12 +903,15 @@ header, #infos, #activites, .a-propos
 	{
 		width: 45%;
 		height: 170px;
-		margin-left: -5px;
 		margin-bottom: 15px;
 	}
 	.populaire-3
 	{
 		display: none;
+	}
+	.populaire-2
+	{
+		margin-right: 10px;
 	}
 	.populaire img
 	{
@@ -907,7 +919,7 @@ header, #infos, #activites, .a-propos
 	}
 	.titre-hebergements
 	{
-		margin-left: -20px;
+		margin-left: -5px;
 	}
 	#conteneur-hebergements
 	{
@@ -920,9 +932,7 @@ header, #infos, #activites, .a-propos
 	{
 		width: 45%;
 		height: 220px;
-		margin-right: 20px;
 		margin-bottom: 15px;
-		margin-left: -5px;
 	}
 	.hebergement img
 	{
@@ -936,7 +946,6 @@ header, #infos, #activites, .a-propos
 	.afficher-plus
 	{
 		top: 0;
-		margin-left: -15px;
 	}
 	.activite img 
 	{
@@ -950,7 +959,7 @@ header, #infos, #activites, .a-propos
 		flex-direction: row;
 		flex-wrap: wrap;
 		align-items: flex-start;
-		margin-left: 2%;
+		margin-left: 25px;
 		height: auto;
 	}
 	.filtre
@@ -980,19 +989,16 @@ header, #infos, #activites, .a-propos
 	#footer-menu
 	{
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		flex-wrap: wrap;
-		margin: 0px;
+		margin-left: 30px;
+		justify-content: space-between;
 	}
 	.a-propos, .hebergements, .assistance
 	{
-		width: 90%;
+		width: 25%;
 		margin-left: 15px;
 		margin-bottom: 15px;
-	}
-	.a-propos
-	{
-		margin-top: 30px;
 	}
 	#recherche
 	{
@@ -1004,7 +1010,7 @@ header, #infos, #activites, .a-propos
 	}
 	#recherche h2, #recherche p
 	{
-	margin-left: 25px;
+	margin-left: 40px;
 	text-align: left;
 	width: 90%;
 	}
