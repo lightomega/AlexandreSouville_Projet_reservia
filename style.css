@@ -283,7 +283,7 @@ a:active
 }
 .hebergement .a-texte, .hebergement .prix
 {
-	margin-top: 10px;
+	margin-top: 5px;
 }
 .texte-prix
 {
@@ -441,6 +441,7 @@ a:active
 
 #footer-menu
 {
+	height: 220px;
 	display: flex;
 	justify-content: flex-start;
 	margin-left: 5px;
@@ -717,6 +718,7 @@ header, #infos, #activites, .a-propos
 	}
 	#footer-menu
 	{
+		height: auto;
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
