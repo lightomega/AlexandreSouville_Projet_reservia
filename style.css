@@ -64,7 +64,6 @@ a:active
 #recherche h2
 {
 	margin-bottom: 10px;
-	font-weight: 1000;
 }
 #recherche
 {
@@ -83,7 +82,7 @@ a:active
 {
 	width: 31px;
 	height: 31px;
-	border: 1px solid #f2f2f2;
+	border: 1px solid;
 	padding-top: 12px;
 	padding-left: 18px;
 	border-top-left-radius: 17px;
@@ -459,7 +458,7 @@ header, #infos, #activites, .a-propos
 }
 
 
-@media all and (min-device-width: 320px) and (max-device-width: 425px)
+@media all and (max-width: 425px)
 {
 	html, body, footer
 	{
@@ -757,7 +756,7 @@ header, #infos, #activites, .a-propos
 		margin: 0px;
 	}
 }
-@media all and (min-device-width: 426px) and (max-device-width: 768px)
+@media all and (min-width: 426px) and (max-width: 1024px)
 {
 	html, body, footer
 	{
