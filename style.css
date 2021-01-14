@@ -82,7 +82,7 @@ a:active
 {
 	width: 31px;
 	height: 31px;
-	border: 1px solid;
+	border: 1px solid #f2f2f2;
 	padding-top: 12px;
 	padding-left: 18px;
 	border-top-left-radius: 17px;
@@ -144,6 +144,11 @@ a:active
 .conteneur-filtres
 {
 	display: flex;
+}
+.filtre:hover
+{
+	background: #DEEBFF;
+	transition-duration: 0.3s;
 }
 .filtre
 {
@@ -235,7 +240,7 @@ a:active
 #conteneur-1
 {
 	display: flex;
-	height: 850px;
+	height: auto;
 }
 .cadre-1
 {
@@ -290,10 +295,13 @@ a:active
 	flex-direction: column;
 	justify-content: space-between;
 }
+.grey-star
+{
+	color: #d9d9d9 !important;
+}
 .populaire-1 .note-icones, .populaire-2 .note-icones, .populaire-3 .note-icones
 {
 	padding-left: 15px;
-	padding-top: 30px;
 	padding-bottom: 10px;
 }
 .a-texte
@@ -349,7 +357,7 @@ a:active
 .populaire
 {
 	display: flex;
-	width: 450px;
+	width: auto;
 	height: 180px;
 	border: 5px solid white;
 	border-radius: 30px;
@@ -458,7 +466,7 @@ header, #infos, #activites, .a-propos
 }
 
 
-@media all and (max-width: 425px)
+@media screen and (max-width: 530px)
 {
 	html, body, footer
 	{
@@ -525,8 +533,7 @@ header, #infos, #activites, .a-propos
 	}
 	#barre-recherche
 	{
-		justify-content: center;
-		margin-left: 0px;
+		margin-left: 25px;
 	}	
 	.bouton-recherche
 	{
@@ -756,7 +763,7 @@ header, #infos, #activites, .a-propos
 		margin: 0px;
 	}
 }
-@media all and (min-width: 426px) and (max-width: 1024px)
+@media screen and (max-width: 1250px) and (min-width: 531px) 
 {
 	html, body, footer
 	{
@@ -823,8 +830,7 @@ header, #infos, #activites, .a-propos
 	}
 	#barre-recherche
 	{
-		justify-content: center;
-		margin-left: -80px;
+		margin-left: 40px;
 	}	
 	.bouton-recherche
 	{
@@ -918,15 +924,8 @@ header, #infos, #activites, .a-propos
 	{		
 		width: 43.5%;
 		height: 220px;
-		margin-bottom: 30px;
-	}
-	.activite-1, .activite-3, .activite-5
-	{
-		margin-left: 35px;
-	}
-	.activite-2, .activite-4, .activite-6
-	{
-		margin-right: 35px;
+		margin: auto;
+		margin-bottom: 15px;
 	}
 	.texte-activite
 	{
@@ -958,7 +957,7 @@ header, #infos, #activites, .a-propos
 	{
 		width: 45%;
 		height: 170px;
-		margin-bottom: 15px;
+		margin: auto;
 	}
 	.populaire-3
 	{
@@ -1079,8 +1078,21 @@ header, #infos, #activites, .a-propos
 		margin: 0px;
 	}
 }
-	
-
+@media screen and (max-width: 1600px) and (min-width: 1251px)
+{
+	.activite
+	{
+		width: 23%
+	}
+	.activite-1, .activite-4
+	{
+		height: 630px;
+	}
+	.activite-3, .activite-6
+	{
+		width: 22.5% !important;
+	}
+}
 
 
 
