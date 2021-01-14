@@ -627,7 +627,7 @@ header, #infos, #activites, .a-propos
 	.activite
 	{		
 		width: 90%;
-		height: 220px;
+		height: auto;
 		margin-bottom: 30px;
 		margin-left: -5px;	
 	}
@@ -927,7 +927,7 @@ header, #infos, #activites, .a-propos
 	.activite
 	{		
 		width: 43.5%;
-		height: 220px;
+		height: auto;
 		margin: auto;
 		margin-bottom: 15px;
 	}
@@ -962,6 +962,10 @@ header, #infos, #activites, .a-propos
 		width: 45%;
 		height: auto;
 		margin: auto;
+	}
+	.populaire-1
+	{
+		margin: 0;
 	}
 	.populaire-3
 	{
